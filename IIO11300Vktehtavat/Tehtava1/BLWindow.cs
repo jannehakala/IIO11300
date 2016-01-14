@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace Tehtava1 {
     public class BusinessLogicWindow {
-        /// <summary>
-        /// CalculatePerimeter calculates the perimeter of a window
-        /// </summary>
-        public static double CalculatePerimeter(double width, double height) {
-            throw new System.NotImplementedException();
+        
+        public static double CalculateWindowArea(double width, double height) {
+            double area = width * height;
+            return area;
+        }
+        public static double CalculateFramePerimeter(double width, double height) {
+            double perimeter = 2 * (width + height);
+            return perimeter;
+        }
+        public static double CalculateFrameArea(double width, double height, double windowwidth, double windowheight) {
+            double area = (width * height) - BusinessLogicWindow.CalculateWindowArea(windowwidth, windowheight);
+            return area;
         }
     }
 }

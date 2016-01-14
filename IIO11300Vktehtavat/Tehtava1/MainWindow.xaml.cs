@@ -19,50 +19,31 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Tehtava1
-{
+namespace Tehtava1 {
   /// <summary>
   /// Interaction logic for MainWindow.xaml
   /// </summary>
-  public partial class MainWindow : Window
-  {
-    public MainWindow()
-    {
+  public partial class MainWindow : Window {
+    public MainWindow() {
       InitializeComponent();
     }
 
-        private void btnCalculate_Click(object sender, RoutedEventArgs e)
-        {
+        private void btnCalculate_Click(object sender, RoutedEventArgs e) {
             //TODO
-            try
-            {
+            try {
                 double result;
                 result = BusinessLogicWindow.CalculatePerimeter(1, 1);
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex) {
                 MessageBox.Show(ex.Message);
             }
-            finally
-            {
+            finally {
                 //yield to an user that everything okay
             }
         }
 
-    private void btnClose_Click(object sender, RoutedEventArgs e)
-    {
+    private void btnClose_Click(object sender, RoutedEventArgs e) {
       Application.Current.Shutdown();
     }
-  }
-
-  public class BusinessLogicWindow
-    {
-    /// <summary>
-    /// CalculatePerimeter calculates the perimeter of a window
-    /// </summary>
-    public static double CalculatePerimeter(double widht, double height)
-        {
-            throw new System.NotImplementedException();
-        }
-    }
+  } 
 }

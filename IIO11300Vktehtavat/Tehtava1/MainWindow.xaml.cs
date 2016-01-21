@@ -19,12 +19,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Tehtava1 {
+namespace JAMK.IT.IIO11300 {
   public partial class MainWindow : Window {
     public MainWindow() {
       InitializeComponent();
     }
-
+        private void btnCalculate_Click2(object sender, RoutedEventArgs e) {
+            IkkunaVE1 ikk = new IkkunaVE1();
+            ikk.Width = double.Parse(txtWidthWindow.Text);
+            ikk.Height = double.Parse(txtHeightWindow.Text);
+            //pinta-alan laskeminen kutsumalla metodia
+            tbWindowArea.Text = ikk.CalculateArea().ToString();
+            //pinta-ala on olion ominaisuus
+            tbWindowArea.Text = ikk.Area.ToString();
+        }
         private void btnCalculate_Click(object sender, RoutedEventArgs e) {
             double WindowWidth;
             double WindowHeight;

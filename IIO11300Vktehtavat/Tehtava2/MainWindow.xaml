@@ -5,26 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JAMK.IT.IIO11300"
         mc:Ignorable="d"
-        Title="WinLotto" Height="380" Width="310">
+        Title="WinLotto" Height="400" Width="280">
 
     <Grid>
-        <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical">
             <StackPanel Orientation="Horizontal">
-                <StackPanel Orientation="Vertical" >
-                    <TextBlock x:Name="tbChooseTheGame" FontSize="12" Text="Choose the game" Height="20" Margin="10,10,10,0" />
-                    <TextBlock x:Name="tbNumberOfDraws" FontSize="12" Text="Number of drawns" Height="20" Margin="10, 10, 10, 0"/>
-                    <Button x:Name="btnDraw" Content="Draw" Click="btnDraw_Click" Margin="10,3,10,0"/>
-                    <TextBlock x:Name="tbRandomlyDrawnNumbers" FontSize="12" Text="Randomly drawn numbers:" Height="20" Margin="10, 10, 10, 0" Width="142"/>
-                </StackPanel>
-                <StackPanel Orientation="Vertical" Width="136" >
-                    <ComboBox x:Name="comboSelectGame"  VerticalAlignment="Top" Loaded="comboSelectGame_Loaded" SelectedIndex="0" Margin="10,10,10,0" />
-                    <TextBox x:Name="txtNumberOfDrawns" Text="1" HorizontalAlignment="Left" Width="40" Margin="10,3,10,0" />
-                    <Button x:Name="btnClear" Content="Clear" Click="btnClear_Click" Margin="10,3,10,0"/>
-                    <StackPanel Height="250" Margin="-147,0,0,0">
-                        <TextBox x:Name="txtRandomlyDrawnNumbers" Text="" Margin="0,30,49,0" Height="190"  />
-                        <Button x:Name="btnClose" Content="Close" Click="btnClose_Click" Margin="194,3,10,0"/>
-                    </StackPanel>
-                </StackPanel>
+                <TextBlock x:Name="tbChooseTheGame" FontSize="12" Text="Choose the game" Height="20" Margin="10,10,10,0" />
+                <ComboBox x:Name="comboSelectGame"  VerticalAlignment="Top" Loaded="comboSelectGame_Loaded" SelectedIndex="0" Margin="10,10,10,0" Width="100" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="tbNumberOfDraws" FontSize="12" Text="Number of drawns" Height="20" Margin="10, 10, 10, 0"/>
+                <TextBox x:Name="txtNumberOfDrawns" Text="1" HorizontalAlignment="Left" Width="42" Margin="10,3,10,0" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnDraw" Content="Draw" Click="btnDraw_Click" Margin="10,0,0,0" Width="75"/>
+                <Button x:Name="btnClear" Content="Clear" Click="btnClear_Click" Margin="10,0,0,0" Width="75"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock x:Name="tbRandomlyDrawnNumbers" FontSize="12" HorizontalAlignment="Left" Text="Randomly drawn numbers:" Height="20" Margin="10, 10, 10, 0" Width="142"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="txtRandomlyDrawnNumbers" Text="" Height="190" Margin="10,0,0,0" Width="240" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnClose" Content="Close" Click="btnClose_Click" Margin="10,10,0,0" Width="75"/>
             </StackPanel>
         </StackPanel>
     </Grid>

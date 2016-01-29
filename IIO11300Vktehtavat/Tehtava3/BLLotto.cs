@@ -64,13 +64,12 @@ namespace JAMK.IT.IIO11300 {
             string line = "";
             int counter = 0;
             int lineCount = File.ReadLines(lotto).Count();
-            Console.WriteLine(lineCount);
             int[] correctNumbers = new int[lineCount];
             string[] array1 = correctrow.Split(' ');
             StreamReader file = new StreamReader(lotto);
-            while ((line = file.ReadLine()) != null) {
+            for (int i = 0; i < lineCount; i++) {
+                line = file.ReadLine();
                 string[] array2 = line.Split(' ');
-                for (int i = 0; i < lineCount; i++) {
                     counter = 0;
                     foreach (string one in array1) {
                         foreach (string two in array2) {
@@ -80,15 +79,7 @@ namespace JAMK.IT.IIO11300 {
                             }
                         }
                     }
-                    
-
-                }
-                
-                
-            }
-            for (int j = 0; j < correctNumbers.Length; j++) {
-                Console.WriteLine(correctNumbers[j]);
-            }
+                }                   
             return correctNumbers;
         }
         public string GetWeekNumber() {

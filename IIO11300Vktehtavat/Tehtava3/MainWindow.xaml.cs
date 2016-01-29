@@ -1,10 +1,9 @@
 ﻿/*
 * Copyright (C) JAMK/IT/Esa Salmikangas
 * This file is part of the IIO11300 course project.
-* Created: 28.1.2016
+* Created: 28.1.2016 Modified: 29.1.2016
 * Authors: Janne Hakala
 */
-
 
 using System;
 using System.Collections.Generic;
@@ -40,7 +39,7 @@ namespace JAMK.IT.IIO11300 {
                 txtRandomlyDrawnNumbers.Text = String.Empty;
                 BLLotto lotto = new BLLotto();
                 for (int i = 0; i < int.Parse(txtNumberOfDrawns.Text); i++) {
-                    txtRandomlyDrawnNumbers.AppendText(lotto.DrawGame(comboSelectGame.Text, i+1));
+                    txtRandomlyDrawnNumbers.AppendText(lotto.DrawGame(comboSelectGame.Text, i + 1));
                     txtRandomlyDrawnNumbers.AppendText(Environment.NewLine);
                 }
             } catch (Exception ex) {
@@ -54,16 +53,24 @@ namespace JAMK.IT.IIO11300 {
             txtCorrectRow.Text = String.Empty;
         }
         private void btnSave_Click(object sender, RoutedEventArgs e) {
+            if (!string.IsNullOrWhiteSpace(txtRandomlyDrawnNumbers.Text)) {
                 BLLotto lotto = new BLLotto();
-                lotto.WriteLottoNumbers(txtRandomlyDrawnNumbers.Text);    
+                lotto.WriteLottoNumbers(txtRandomlyDrawnNumbers.Text);
+            } else {
+                MessageBox.Show("Draw numbers first.");
+            }
         }
         private void btnCheckRows_Click(object sender, RoutedEventArgs e) {
-            txtMatchedNumbers.Text = String.Empty;
-            BLLotto lotto = new BLLotto();
-            string text = txtCorrectRow.Text.ToString();
-            int[] array = lotto.ReadLottoNumbers(text);
-            for (int i = 0; i < array.Length; i++) {
-                txtMatchedNumbers.AppendText("Row " + (i + 1) + ": right numbers: " + array[i] + "\n");
+            if (!string.IsNullOrWhiteSpace(txtCorrectRow.Text)) {
+                txtMatchedNumbers.Text = String.Empty;
+                BLLotto lotto = new BLLotto();
+                string text = txtCorrectRow.Text.ToString();
+                int[] array = lotto.ReadLottoNumbers(text);
+                for (int i = 0; i < array.Length; i++) {
+                    txtMatchedNumbers.AppendText("Row " + (i + 1) + ": right numbers: " + array[i] + "\n");
+                }
+            } else {
+                MessageBox.Show("Insert correct row first.");
             }
         }
         private void btnClose_Click(object sender, RoutedEventArgs e) {

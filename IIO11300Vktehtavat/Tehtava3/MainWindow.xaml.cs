@@ -28,6 +28,7 @@ namespace JAMK.IT.IIO11300 {
         public MainWindow() {
             InitializeComponent();
         }
+        BLLotto lotto = new BLLotto();
         private void comboSelectGame_Loaded(object sender, RoutedEventArgs e) {
             comboSelectGame.Items.Add("Lotto");
             comboSelectGame.Items.Add("Viking Lotto");
@@ -37,7 +38,6 @@ namespace JAMK.IT.IIO11300 {
         private void btnDraw_Click(object sender, RoutedEventArgs e) {
             try {
                 txtRandomlyDrawnNumbers.Text = String.Empty;
-                BLLotto lotto = new BLLotto();
                 for (int i = 0; i < int.Parse(txtNumberOfDrawns.Text); i++) {
                     txtRandomlyDrawnNumbers.AppendText(lotto.DrawGame(comboSelectGame.Text, i + 1));
                     txtRandomlyDrawnNumbers.AppendText(Environment.NewLine);
@@ -54,7 +54,6 @@ namespace JAMK.IT.IIO11300 {
         }
         private void btnSave_Click(object sender, RoutedEventArgs e) {
             if (!string.IsNullOrWhiteSpace(txtRandomlyDrawnNumbers.Text)) {
-                BLLotto lotto = new BLLotto();
                 lotto.WriteLottoNumbers(txtRandomlyDrawnNumbers.Text);
             } else {
                 MessageBox.Show("Draw numbers first.");
@@ -63,7 +62,6 @@ namespace JAMK.IT.IIO11300 {
         private void btnCheckRows_Click(object sender, RoutedEventArgs e) {
             if (!string.IsNullOrWhiteSpace(txtCorrectRow.Text)) {
                 txtMatchedNumbers.Text = String.Empty;
-                BLLotto lotto = new BLLotto();
                 string text = txtCorrectRow.Text.ToString();
                 int[] array = lotto.ReadLottoNumbers(text);
                 for (int i = 0; i < array.Length; i++) {

@@ -1,0 +1,44 @@
+﻿<Window x:Class="JAMK.IT.IIO11300.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JAMK.IT.IIO11300"
+        mc:Ignorable="d"
+        Title="Oliot SM-liigassa" Height="300" Width="750" FontSize="16">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Name="tbFirstname" Text="Etunimi" Margin="10, 12, 10, 5"></TextBlock>
+                    <TextBlock x:Name="tbLastname" Text="Sukunimi" Margin="10, 10, 10, 5"></TextBlock>
+                    <TextBlock x:Name="tbPrice" Text="Siirtohinta" Margin="10, 10, 10, 8"></TextBlock>
+                    <TextBlock x:Name="tbTeam" Text="Seura" Margin="10, 10, 10, 5"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="214">
+                    <TextBox x:Name="txtFirstname" Text="" Margin="10,10,10,0"/>
+                    <TextBox x:Name="txtLastname" Text="" Margin="10,10,10,0"/>
+                    <TextBox x:Name="txtPrice" Text="" Margin="10,10,10,0"/>
+                    <ComboBox x:Name="cbTeam" Height="30"  Margin="10,10,10,0" Loaded="comboSelectTeam_Loaded"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Button x:Name="btnNewPlayer" Content="Luo uusi pelaaja" Margin="10, 10, 10, 0" Click="btnNewPlayer_Click"></Button>
+                    <Button x:Name="btnSavePlayer" Content="Talleta pelaaja" Margin="10, 10, 10, 0" Click="btnSavePlayer_Click"></Button>
+                    <Button x:Name="btnDeletePlayer" Content="Poista pelaaja" Margin="10, 10, 10, 0" Click="btnDeletePlayer_Click"></Button>
+                    <Button x:Name="btnWritePlayers" Content="Kirjoita pelaajat" Margin="10, 10, 10, 0" Click="btnWritePlayers_Click"></Button>
+                    <Button x:Name="btnClose" Content="Lopetus" Margin="10, 10, 10, 10" Click="btnClose_Click"></Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <ListBox x:Name="listBox" Height="180"  Width="280" Margin="0,10,0,40"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel>
+                <StatusBar DockPanel.Dock="Bottom">
+                    <StatusBarItem Height="30" FontSize="15">
+                        <TextBlock Name="tbStatus" Text="Tila: " />
+                    </StatusBarItem>
+                </StatusBar>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

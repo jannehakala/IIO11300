@@ -19,7 +19,7 @@
                     <TextBox x:Name="txtFirstname" Text="" Margin="10,10,10,0"/>
                     <TextBox x:Name="txtLastname" Text="" Margin="10,10,10,0"/>
                     <TextBox x:Name="txtPrice" Text="" Margin="10,10,10,0"/>
-                    <ComboBox x:Name="cbTeam" Height="30"  Margin="10,10,10,0" Loaded="comboSelectTeam_Loaded"/>
+                    <ComboBox x:Name="cbTeam" Height="30"  Margin="10,10,10,0" />
                 </StackPanel>
                 <StackPanel Orientation="Vertical">
                     <Button x:Name="btnNewPlayer" Content="Luo uusi pelaaja" Margin="10, 10, 10, 0" Click="btnNewPlayer_Click"></Button>
@@ -29,7 +29,7 @@
                     <Button x:Name="btnClose" Content="Lopetus" Margin="10, 10, 10, 10" Click="btnClose_Click"></Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <ListBox x:Name="listBox" Height="180"  Width="280" Margin="0,10,0,40"/>
+                    <ListBox x:Name="listBox" Height="180"  Width="280" Margin="0,10,0,40" SelectionChanged="lbSelection_Click"/>
                 </StackPanel>
             </StackPanel>
             <StackPanel>

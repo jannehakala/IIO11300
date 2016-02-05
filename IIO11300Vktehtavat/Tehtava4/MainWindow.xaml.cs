@@ -18,48 +18,91 @@ namespace JAMK.IT.IIO11300 {
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
+        List<Pelaaja> pelaajat;
         public MainWindow() {
             InitializeComponent();
+            pelaajat = new List<Pelaaja>();
+            string[] teams = new string[] { "Blues", "HIFK", "HPK", "Ilves", "JYP", "KalPa", "KooKoo",
+            "Kärpät", "Lukko", "Pelicans", "SaiPa", "Sport", "Tappara", "TPS", "Ässät" };
+            cbTeam.ItemsSource = teams;
         }
-        private void comboSelectTeam_Loaded(object sender, RoutedEventArgs e) {
-            cbTeam.Items.Add("Blues"); cbTeam.Items.Add("HIFK"); cbTeam.Items.Add("HPK");
-            cbTeam.Items.Add("Ilves"); cbTeam.Items.Add("JYP"); cbTeam.Items.Add("KalPa");
-            cbTeam.Items.Add("KooKoo"); cbTeam.Items.Add("Kärpät"); cbTeam.Items.Add("Lukko");
-            cbTeam.Items.Add("Pelicans"); cbTeam.Items.Add("SaiPa"); cbTeam.Items.Add("Sport");
-            cbTeam.Items.Add("Tappara"); cbTeam.Items.Add("TPS"); cbTeam.Items.Add("Ässät");
-        }
-
 
         private void btnNewPlayer_Click(object sender, RoutedEventArgs e) {
             try {
-                if (!string.IsNullOrEmpty(txtFirstname.Text) && !string.IsNullOrEmpty(txtLastname.Text)
-                        && !string.IsNullOrEmpty(txtPrice.Text) && !string.IsNullOrEmpty(cbTeam.Text)) {
-                    Pelaaja pelaaja = new Pelaaja(txtFirstname.Text, txtLastname.Text, int.Parse(txtPrice.Text), cbTeam.Text);
-                    listBox.Items.Add(pelaaja.Previewname);
-                    tbStatus.Text = "Tila: Pelaajan luonti onnistui!";
+                if (!string.IsNullOrWhiteSpace(txtFirstname.Text) && !string.IsNullOrWhiteSpace(txtLastname.Text)
+                    && !string.IsNullOrWhiteSpace(txtPrice.Text) && cbTeam.SelectedItem != null) {
+
+                    Pelaaja pelaaja = new Pelaaja(txtFirstname.Text, txtLastname.Text, int.Parse(txtPrice.Text), cbTeam.SelectedValue.ToString());
+                    if (pelaajat.Exists(Pelaaja => Pelaaja.Fullname == pelaaja.Fullname)) {
+                        pelaaja = null;
+                        tbStatus.Text = "Tila: Pelaaja on jo listassa!";
+                    } else {
+                        pelaajat.Add(pelaaja);
+                        ApplyChanges();
+                        tbStatus.Text = "Tila: Pelaajan luonti onnistui!";
+                    }
                 } else {
-                    tbStatus.Text = "Tila: Jokin kohta jäi tyhjäksi!";
+                    tbStatus.Text = "Tila: Jokin kenttä jäi tyhjäksi!";
                 }
             } catch (Exception ex) {
-                tbStatus.Text = "Tila: Syötä hinnaksi vain numeroita!";
+                tbStatus.Text = "Tila: " + ex.ToString();
             }
-            
         }
-
         private void btnSavePlayer_Click(object sender, RoutedEventArgs e) {
-
+            try {
+                int index = listBox.Items.IndexOf(listBox.SelectedItem);
+                pelaajat[index].Fname = txtFirstname.Text;
+                pelaajat[index].Lname = txtLastname.Text;
+                pelaajat[index].Team = cbTeam.SelectedValue.ToString();
+                pelaajat[index].Price = int.Parse(txtPrice.Text);
+                Clear();
+                ApplyChanges();
+                tbStatus.Text = "Pelaaja " + pelaajat[index].Fullname + " tallennettu";
+            } catch (Exception ex) {
+                tbStatus.Text = "Tila: " + ex.ToString();
+            }
         }
-
         private void btnDeletePlayer_Click(object sender, RoutedEventArgs e) {
-
+            try {
+                int index = listBox.Items.IndexOf(listBox.SelectedItem);
+                pelaajat.RemoveAt(index);
+                Clear();
+                ApplyChanges();
+                tbStatus.Text = "Tila: Pelaaja poistettu.";
+            } catch (Exception ex) {
+                tbStatus.Text = "Tila: " + ex.ToString();
+            }
         }
-
         private void btnWritePlayers_Click(object sender, RoutedEventArgs e) {
-
+            try {
+                Pelaaja.WriteToFile(pelaajat);
+                tbStatus.Text = "Tila: Pelaajat kirjoitettu tiedostoon.";
+            } catch (Exception ex) {
+                tbStatus.Text = "Tila: " + ex.ToString();
+            }
         }
-
+        private void lbSelection_Click(object sender, SelectionChangedEventArgs e) {
+            if (listBox.SelectedItem != null) {
+                int index = listBox.Items.IndexOf(listBox.SelectedItem);
+                txtFirstname.Text = pelaajat[index].Fname;
+                txtLastname.Text = pelaajat[index].Lname;
+                txtPrice.Text = pelaajat[index].Price.ToString();
+                cbTeam.SelectedValue = pelaajat[index].Team;
+                tbStatus.Text = "Tila: " + pelaajat[index].Fullname + " valittu.";
+            }
+        }
         private void btnClose_Click(object sender, RoutedEventArgs e) {
             Application.Current.Shutdown();
+        }
+        private void ApplyChanges() {
+            listBox.ItemsSource = null;
+            listBox.ItemsSource = pelaajat;
+        }
+        private void Clear() {
+            txtFirstname.Text = "";
+            txtLastname.Text = "";
+            txtPrice.Text = "";
+            cbTeam.SelectedValue = "";
         }
     }
 }

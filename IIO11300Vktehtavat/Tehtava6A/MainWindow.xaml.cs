@@ -16,46 +16,53 @@ using System.Windows.Shapes;
 using System.Xml;
 using System.Xml.Linq;
 using System.Configuration;
-
+using System.Collections.ObjectModel;
 
 namespace Tehtava6A {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window {
+        XElement xe;
         public MainWindow() {
             InitializeComponent();
             tbPath.Text = ConfigurationManager.AppSettings["file"];
             cbWines.SelectedIndex = 0;
             try {
-                XmlDocument doc = new XmlDocument();
-                doc.Load(tbPath.Text);
-                XmlNodeList colorList = doc.SelectNodes("/viinikellari/wine/maa");
-                cbWines.Items.Add("Kaikki");
+                xe = XElement.Load(tbPath.Text);
 
-                foreach (XmlNode name in colorList) {
-                    if (!cbWines.Items.Contains(name.InnerText)) {
-                        cbWines.Items.Add(name.InnerText);
-                    }
-                }
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message);
             }
         }
-
         private void btnReadWines_Click(object sender, RoutedEventArgs e) {
             try {
+                dataGrid.Items.Clear();
                 if (cbWines.SelectedIndex == 0) {
-                    XmlDataProvider xdpWineData = (XmlDataProvider)this.FindResource("WineData");
-                    xdpWineData.Source = new Uri(tbPath.Text, UriKind.RelativeOrAbsolute);
+                    foreach (XElement wine in xe.Elements("wine")) {
+                        dataGrid.Items.Add(wine);
+                    }
                 } else {
-                    XDocument xDoc = XDocument.Load(tbPath.Text);
-                    string selected = cbWines.Text.ToString();
-                    var items = xDoc.Descendants("wine").Where(w => w.Element("maa").Value == selected);
-                    foreach (var item in items) {
-                        //dataGrid.ItemsSource = null;
-                       // dataGrid.Items.Add("dsf");
-                        Console.WriteLine(item.Element("nimi").Value + item.Element("maa").Value);
+                    foreach (XElement wine in xe.Elements("wine")) {
+                        if (wine.Element("maa").Value == cbWines.SelectedItem.ToString()) {
+                            dataGrid.Items.Add(wine);
+                        }
+                    }
+                }
+
+            } catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
+        }
+        private void cbWines_Loaded(object sender, RoutedEventArgs e) {
+            try {
+                           
+                XmlDocument doc = new XmlDocument();
+                doc.Load(tbPath.Text);
+                XmlNodeList nodes = doc.SelectNodes("/viinikellari/wine/maa");
+                cbWines.Items.Add("All");
+
+                foreach (XmlNode name in nodes) {
+                    if (!cbWines.Items.Contains(name.InnerText)) {
+                        cbWines.Items.Add(name.InnerText);
                     }
                 }
             } catch (Exception ex) {

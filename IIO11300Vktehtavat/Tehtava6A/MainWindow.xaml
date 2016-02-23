@@ -5,10 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tehtava6A"
         mc:Ignorable="d"
-        Title="XMLViinikellari" Height="450" Width="625">
-    <Window.Resources>
-        <XmlDataProvider x:Key="WineData"  XPath="/viinikellari/wine" />
-    </Window.Resources>
+        Title="XML Wine cellar" Height="450" Width="625">
+
     <StackPanel>
         <StackPanel.Background>
             <LinearGradientBrush EndPoint="0.9,1" MappingMode="RelativeToBoundingBox" StartPoint="0.0,0">
@@ -17,18 +15,20 @@
             </LinearGradientBrush>
         </StackPanel.Background>
         <StackPanel Margin="30,30,30,0" Orientation="Horizontal">
-            <Button x:Name="btnReadWines" Width="120" Margin="0,0,20,0" Content="Hae viinit" Click="btnReadWines_Click" BorderBrush="#00000000"></Button>
-            <ComboBox x:Name="cbWines" Width="120"></ComboBox>
+            <Button x:Name="btnReadWines" Width="120" Margin="0,0,20,0" Content="Read wines" Click="btnReadWines_Click"></Button>
+            <ComboBox x:Name="cbWines" Width="120" Loaded="cbWines_Loaded"></ComboBox>
         </StackPanel>
         <StackPanel Margin="30,10,30,30" Orientation="Vertical">
-            <DataGrid Height="270" x:Name="dataGrid" DataContext="{StaticResource WineData}" ItemsSource="{Binding XPath=/viinikellari/wine}" 
-                         AutoGenerateColumns="False" AlternatingRowBackground="#FF20A626">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Viini" Binding="{Binding XPath=nimi}"/>
-                    <DataGridTextColumn Header="Valmistusmaa" Binding="{Binding XPath=maa}"/>
-                    <DataGridTextColumn Header="Pisteet" Binding="{Binding XPath=arvio}"/>
-                </DataGrid.Columns>
-            </DataGrid>
+            <Grid>
+                <DataGrid Height="270" x:Name="dataGrid"
+                             AutoGenerateColumns="False" AlternatingRowBackground="#FF20A626">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Wine" Binding="{Binding Path=Element[nimi].Value}"/>
+                        <DataGridTextColumn Header="Country" Binding="{Binding Path=Element[maa].Value}"/>
+                        <DataGridTextColumn Header="Points" Binding="{Binding Path=Element[arvio].Value}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
             <TextBlock x:Name="tbPath" Foreground="#FFF1E710" Margin="0,20,0,0"></TextBlock>
         </StackPanel>
     </StackPanel>

@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel>
             <TextBlock >Password to check:</TextBlock>
-            <TextBox x:Name="txtTextToCheck" TextChanged="txtTextToCheck_TextChanged"></TextBox>
+            <PasswordBox x:Name="txtPasswordToCheck" PasswordChanged="txtPasswordToCheck_TextChanged"/>
             <TextBlock x:Name="tbCharCount">...</TextBlock>
             <TextBlock x:Name="tbUpperCaseCount">...</TextBlock>
             <TextBlock x:Name="tbLoverCaseCount">...</TextBlock>

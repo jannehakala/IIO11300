@@ -1,0 +1,27 @@
+﻿<Window x:Class="Tehtava8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava8"
+        mc:Ignorable="d"
+        Title="ViiniAsiakkaat" Height="360" Width="525" FontSize="14">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="180" Margin="0,0,10,0">
+                <Button x:Name="btnGetCustomers" Click="btnGetCustomers_Click">Hae asiakkaat</Button>
+                <ListBox x:Name="lbCustomers" ItemsSource="{Binding}" Height="300" SelectionChanged="lbCustomers_SelectionChanged"></ListBox>
+            </StackPanel>
+            <StackPanel Width="180">
+                <TextBlock>Etunimi:</TextBlock>
+                <TextBox x:Name="txtFirstname" Text="{Binding Path=firstname, Mode=OneWay}" Background="#FFFF9F78" FontFamily="Segoe UI Black"></TextBox>
+                <TextBlock>Sukunimi:</TextBlock>
+                <TextBox x:Name="txtLastname" Text="{Binding Path=lastname, Mode=OneWay}" Background="#FFFF9F78" FontFamily="Segoe UI Black"></TextBox>
+                <TextBlock>Osoite:</TextBlock>
+                <TextBox x:Name="txtAddress" Text="{Binding Path=address, Mode=OneWay}" Background="#FFFF9F78" FontFamily="Segoe UI Black"></TextBox>
+                <TextBlock>Kaupunki:</TextBlock>
+                <TextBox x:Name="txtCity" Text="{Binding Path=city, Mode=OneWay}" Background="#FFFF9F78" FontFamily="Segoe UI Black"></TextBox>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

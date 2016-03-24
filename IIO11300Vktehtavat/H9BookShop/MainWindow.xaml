@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:H9BookShop"
         mc:Ignorable="d"
-        Title="Book Shop" Height="350" Width="525">
+        Title="Book Shop" Height="500" Width="525">
     <Grid>
         <StackPanel>
             <StackPanel Orientation="Horizontal">
@@ -20,7 +20,7 @@
                     <TextBlock Margin="0,0,0,5">Maa</TextBlock>
                     <TextBlock Margin="0,0,0,5">Vuosi</TextBlock>
                 </StackPanel>
-                <StackPanel Width="200" Background="Orange" x:Name="spBooks">
+                <StackPanel Width="200" Background="Orange" x:Name="spBook">
                     <TextBlock x:Name="tbBookAndWriter" Text="{Binding Mode=OneWay}" Margin="0,0,0,0"></TextBlock>
                     <TextBox x:Name="txtBook" Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"  Margin="0,0,0,3"></TextBox>
                     <TextBox x:Name="txtWriter" Text="{Binding Path=Author, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,3"></TextBox>
@@ -34,7 +34,7 @@
             </StackPanel>
 
             <StackPanel>
-                <DataGrid x:Name="dgBooks" AutoGenerateColumns="True"  Height="Auto" Width="Auto" HorizontalAlignment="Left" SelectionChanged="dgBooks_SelectionChanged" ItemsSource="{Binding}"></DataGrid>
+                <DataGrid x:Name="dgBooks" AutoGenerateColumns="True" Height="250" Width="Auto" HorizontalAlignment="Left" ScrollViewer.CanContentScroll="True" SelectionChanged="dgBooks_SelectionChanged" ItemsSource="{Binding}"></DataGrid>
             </StackPanel>
         </StackPanel>
     </Grid>

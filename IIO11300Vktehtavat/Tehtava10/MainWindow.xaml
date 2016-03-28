@@ -1,0 +1,31 @@
+﻿<Window x:Class="Tehtava10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava10"
+        mc:Ignorable="d"
+       Title="Oudot oliot SM-liigassa" Height="350" Width="600" >
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="80" Margin="10,10,0,10">
+                <TextBlock Text="Etunimi" Margin="0,0,0,10" FontSize="16" />
+                <TextBlock Text="Sukunimi" Margin="0,0,0,10" FontSize="16"/>
+                <TextBlock Text="Siirtohinta" Margin="0,0,0,10" FontSize="16"/>
+                <TextBlock Text="Seura" Margin="0,0,0,10" FontSize="16"/>             
+            </StackPanel>
+            <StackPanel Name="spPelaaja" Margin="0,10,10,10" Width="150">
+                <TextBox x:Name="txtEtunimi"  Margin="0,0,0,10" Text="{Binding Path=Etunimi}"/>
+                <TextBox x:Name="txtSukunimi"  Margin="0,0,0,10" Text="{Binding Path=Sukunimi}" />
+                <TextBox x:Name="txtArvo"  Margin="0,0,0,10" Text="{Binding Path=Arvo}"/>
+                <TextBox x:Name="txtSeura"  Margin="0,0,0,10" Text="{Binding Path=Seura}"/>
+            </StackPanel>
+            <StackPanel>
+                <Button x:Name="btnGetPlayers" Margin="0,5,0,0" Content="Hae kannasta" Click="btnGetPlayers_Click" />
+                <Button x:Name="btnSavePlayers" Margin="0,5,0,0" Content="Tallenna kantaan" Click="btnSavePlayers_Click" />
+                <Button x:Name="btnAddPlayer" Margin="0,5,0,0" Content="Luo pelaaja" Click="btnAddPlayer_Click"/>
+            </StackPanel>
+            <ListBox x:Name="lbPelaajat" ItemsSource="{Binding}" SelectionChanged="lbPelaajat_SelectionChanged" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

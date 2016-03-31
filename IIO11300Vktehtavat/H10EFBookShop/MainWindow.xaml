@@ -1,0 +1,53 @@
+﻿<Window x:Class="H10EFBookShop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:H10EFBookShop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="725">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel HorizontalAlignment="Left">
+                    <Button x:Name="btnGetCustomers" Height="20" Margin="10" Click="btnGetCustomers_Click">Hae asiakkaat EF</Button>
+                    <Button x:Name="getGetBooks" Height="20" Margin="10,0,10,10" Click="getGetBooks_Click">Hae kirjat EF</Button>
+                    <ComboBox x:Name="cbCountries" SelectionChanged="cbCountries_SelectionChanged" ItemsSource="{Binding}" Height="26" Margin="5,5,5,0" Visibility="Hidden"></ComboBox>
+                </StackPanel>
+                <StackPanel Background="Orange" Width="60" Height="160">
+                    <TextBlock Margin="0,0,0,0">Tuote</TextBlock>
+                    <TextBlock Margin="0,0,0,5">Nimi</TextBlock>
+                    <TextBlock Margin="0,0,0,5">Kirjailija</TextBlock>
+                    <TextBlock Margin="0,0,0,5">Maa</TextBlock>
+                    <TextBlock Margin="0,0,0,5">Vuosi</TextBlock>
+                </StackPanel>
+                <StackPanel Width="200" Background="Orange" x:Name="spBook">
+                    <TextBlock x:Name="tbBookAndWriter" Text="{Binding Path=DisplayName, Mode=OneWay}" Margin="0,0,0,0"></TextBlock>
+                    <TextBox x:Name="txtBook" Text="{Binding Path=name, UpdateSourceTrigger=PropertyChanged}"  Margin="0,0,0,3"></TextBox>
+                    <TextBox x:Name="txtWriter" Text="{Binding Path=author, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,3"></TextBox>
+                    <TextBox x:Name="txtCountry" Text="{Binding Path=country}" Margin="0,0,0,3"></TextBox>
+                    <TextBox x:Name="txtYear" Text="{Binding Path=year}" HorizontalAlignment="Left" Width="50" Margin="0,0,0,3"></TextBox>
+                    <Button x:Name="btnSave" Click="btnSave_Click">Tallenna</Button>
+                    <Button x:Name="btnNew" Click="btnNew_Click">Uusi</Button>
+                    <Button x:Name="btnDelete" Click="btnDelete_Click">Poista</Button>
+                </StackPanel>
+                <StackPanel Background="Cyan" Width="60" Height="160">
+                    <TextBlock Margin="0,0,0,0">asiakas</TextBlock>
+                    <TextBlock Margin="0,0,0,5">etunimi</TextBlock>
+                    <TextBlock Margin="0,0,0,5">sukunimi</TextBlock>
+                    <TextBlock Margin="0,0,0,5">tilauksia</TextBlock>
+                </StackPanel>
+                <StackPanel Width="200" Background="Cyan" x:Name="spCustomer">
+                    <TextBlock Text="{Binding Path=DisplayName, Mode=OneWay}" Margin="0,0,0,0"></TextBlock>
+                    <TextBox Text="{Binding Path=firstname, UpdateSourceTrigger=PropertyChanged}"  Margin="0,0,0,3"></TextBox>
+                    <TextBox Text="{Binding Path=lastname, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,3"></TextBox>
+                    <TextBox Text="{Binding Path=OrderCount, Mode=OneWay}" Margin="0,0,8,3" Width="20" HorizontalAlignment="Left"/>
+                    <Button x:Name="btnGetOrders" Click="btnGetOrders_Click" >Hae asiakkaan tilaukset</Button>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel>
+                <DataGrid x:Name="dgBooks" AutoGenerateColumns="True" Height="250" Width="Auto" HorizontalAlignment="Left" ScrollViewer.CanContentScroll="True" SelectionChanged="dgBooks_SelectionChanged" ItemsSource="{Binding}"></DataGrid>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava1", "Tehtava1\Tehtava1.csproj", "{BBFDB3F8-2232-4C51-A154-1DFFF2E75FE7}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H9BookShop", "H9BookShop\H9BookShop.csproj", "{C3DA47E3-21A9-4B13-9A2B-147BE038BC7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava10", "Tehtava10\Tehtava10.csproj", "{1C0F9D60-D017-4316-8184-BFAA48589106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10EFBookShop", "H10EFBookShop\H10EFBookShop.csproj", "{D5C48204-279A-4352-A597-032A4DBE7215}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{1C0F9D60-D017-4316-8184-BFAA48589106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0F9D60-D017-4316-8184-BFAA48589106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0F9D60-D017-4316-8184-BFAA48589106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C48204-279A-4352-A597-032A4DBE7215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C48204-279A-4352-A597-032A4DBE7215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C48204-279A-4352-A597-032A4DBE7215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C48204-279A-4352-A597-032A4DBE7215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

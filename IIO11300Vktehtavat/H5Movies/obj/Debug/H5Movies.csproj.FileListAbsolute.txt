@@ -1,0 +1,17 @@
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\bin\Debug\H5Movies.exe.config
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\bin\Debug\H5Movies.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\bin\Debug\H5Movies.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\MainWindow.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\Movies1.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\Movies2.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\App.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\H5Movies_MarkupCompile.cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\H5Movies_MarkupCompile.lref
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\MainWindow.baml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\Movies1.baml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\Movies2.baml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\H5Movies.g.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\H5Movies.Properties.Resources.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\H5Movies.csproj.GenerateResource.Cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\H5Movies.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H5Movies\obj\Debug\H5Movies.pdb

@@ -1,0 +1,13 @@
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\bin\Debug\Tehtava9.exe.config
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\bin\Debug\Tehtava9.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\bin\Debug\Tehtava9.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\MainWindow.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\App.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9_MarkupCompile.cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9_MarkupCompile.lref
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\MainWindow.baml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.g.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.Properties.Resources.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.csproj.GenerateResource.Cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.pdb

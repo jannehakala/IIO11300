@@ -1,0 +1,5 @@
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4TyontekijatConsole.exe.config
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4TyontekijatConsole.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4TyontekijatConsole.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\obj\Debug\H4TyontekijatConsole.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\obj\Debug\H4TyontekijatConsole.pdb

@@ -1,0 +1,13 @@
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\bin\Debug\H8ADONETLasnaolotWPF.exe.config
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\bin\Debug\H8ADONETLasnaolotWPF.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\bin\Debug\H8ADONETLasnaolotWPF.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\MainWindow.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\App.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\H8ADONETLasnaolotWPF_MarkupCompile.cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\H8ADONETLasnaolotWPF_MarkupCompile.lref
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\MainWindow.baml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\H8ADONETLasnaolotWPF.g.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\H8ADONETLasnaolotWPF.Properties.Resources.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\H8ADONETLasnaolotWPF.csproj.GenerateResource.Cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\H8ADONETLasnaolotWPF.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H8ADONETLasnaolotWPF\obj\Debug\H8ADONETLasnaolotWPF.pdb

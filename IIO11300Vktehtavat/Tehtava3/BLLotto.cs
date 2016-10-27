@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace JAMK.IT.IIO11300 {
-    class BLLotto {
+    public class BLLotto {
         #region variables
         Random random = new Random();
         #endregion

@@ -1,0 +1,14 @@
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\bin\Debug\Tehtava6A.exe.config
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\bin\Debug\Tehtava6A.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\bin\Debug\Tehtava6A.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A.csprojResolveAssemblyReference.cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\MainWindow.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\App.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A_MarkupCompile.cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A_MarkupCompile.lref
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\MainWindow.baml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A.g.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A.Properties.Resources.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A.csproj.GenerateResource.Cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava6A\obj\Debug\Tehtava6A.pdb

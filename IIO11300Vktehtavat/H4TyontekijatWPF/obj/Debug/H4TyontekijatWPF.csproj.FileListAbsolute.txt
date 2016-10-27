@@ -1,0 +1,13 @@
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\bin\Debug\H4TyontekijatWPF.exe.config
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\bin\Debug\H4TyontekijatWPF.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\bin\Debug\H4TyontekijatWPF.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\MainWindow.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\App.g.cs
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\H4TyontekijatWPF_MarkupCompile.cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\H4TyontekijatWPF_MarkupCompile.lref
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\MainWindow.baml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\H4TyontekijatWPF.g.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\H4TyontekijatWPF.Properties.Resources.resources
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\H4TyontekijatWPF.csproj.GenerateResource.Cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\H4TyontekijatWPF.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatWPF\obj\Debug\H4TyontekijatWPF.pdb

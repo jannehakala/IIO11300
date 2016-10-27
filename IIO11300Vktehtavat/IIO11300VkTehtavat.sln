@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava1", "Tehtava1\Tehtava1.csproj", "{BBFDB3F8-2232-4C51-A154-1DFFF2E75FE7}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10EFBookShop", "H10EFBookShop\H10EFBookShop.csproj", "{D5C48204-279A-4352-A597-032A4DBE7215}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava11", "Tehtava11\Tehtava11.csproj", "{7A24C129-3CCE-454C-BA7A-94DA8203547A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava3Tests", "Tehtava3Tests\Tehtava3Tests.csproj", "{CFB7ABE8-DA54-4B97-8E65-2921B49C7DC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{7A24C129-3CCE-454C-BA7A-94DA8203547A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A24C129-3CCE-454C-BA7A-94DA8203547A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A24C129-3CCE-454C-BA7A-94DA8203547A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB7ABE8-DA54-4B97-8E65-2921B49C7DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB7ABE8-DA54-4B97-8E65-2921B49C7DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB7ABE8-DA54-4B97-8E65-2921B49C7DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB7ABE8-DA54-4B97-8E65-2921B49C7DC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3Tests.dll
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3Tests.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3.exe
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3.pdb
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.csprojResolveAssemblyReference.cache
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.dll
+D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.pdb

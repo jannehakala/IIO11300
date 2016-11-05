@@ -17,3 +17,22 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.Propert
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.csproj.GenerateResource.Cache
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.exe
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\bin\Debug\Tehtava11.exe.config
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\bin\Debug\Tehtava11.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\bin\Debug\Tehtava11.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\bin\Debug\EntityFramework.dll
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\bin\Debug\EntityFramework.xml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.csprojResolveAssemblyReference.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\MainWindow.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\App.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11_Content.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11_MarkupCompile.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11_MarkupCompile.lref
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\MainWindow.baml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.g.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.Properties.Resources.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.csproj.GenerateResource.Cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava11\obj\Debug\Tehtava11.pdb

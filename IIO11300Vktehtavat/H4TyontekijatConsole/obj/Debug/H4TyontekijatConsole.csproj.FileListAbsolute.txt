@@ -3,3 +3,9 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4Tyon
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4TyontekijatConsole.pdb
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\obj\Debug\H4TyontekijatConsole.exe
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\obj\Debug\H4TyontekijatConsole.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4TyontekijatConsole.exe.config
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4TyontekijatConsole.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\bin\Debug\H4TyontekijatConsole.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\obj\Debug\H4TyontekijatConsole.csprojResolveAssemblyReference.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\obj\Debug\H4TyontekijatConsole.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H4TyontekijatConsole\obj\Debug\H4TyontekijatConsole.pdb

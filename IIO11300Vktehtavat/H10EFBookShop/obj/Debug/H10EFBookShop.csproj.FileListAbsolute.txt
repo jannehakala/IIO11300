@@ -17,3 +17,22 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.csproj.GenerateResource.Cache
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.exe
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\bin\Debug\H10EFBookShop.exe.config
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\bin\Debug\H10EFBookShop.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\bin\Debug\H10EFBookShop.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\bin\Debug\EntityFramework.dll
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\bin\Debug\EntityFramework.xml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.csprojResolveAssemblyReference.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\MainWindow.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\App.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop_Content.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop_MarkupCompile.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop_MarkupCompile.lref
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\MainWindow.baml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.g.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.Properties.Resources.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.csproj.GenerateResource.Cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H10EFBookShop\obj\Debug\H10EFBookShop.pdb

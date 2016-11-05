@@ -11,3 +11,17 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.Propert
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.csproj.GenerateResource.Cache
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.exe
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\bin\Debug\Tehtava5A.exe.config
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\bin\Debug\Tehtava5A.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\bin\Debug\Tehtava5A.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.csprojResolveAssemblyReference.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\MainWindow.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\App.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A_MarkupCompile.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A_MarkupCompile.lref
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\MainWindow.baml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.g.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.Properties.Resources.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.csproj.GenerateResource.Cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava5A\obj\Debug\Tehtava5A.pdb

@@ -11,3 +11,16 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.Propertie
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.csproj.GenerateResource.Cache
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.exe
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\bin\Debug\Tehtava9.exe.config
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\bin\Debug\Tehtava9.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\bin\Debug\Tehtava9.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\MainWindow.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\App.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9_MarkupCompile.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9_MarkupCompile.lref
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\MainWindow.baml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.g.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.Properties.Resources.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.csproj.GenerateResource.Cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava9\obj\Debug\Tehtava9.pdb

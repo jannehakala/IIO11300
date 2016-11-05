@@ -11,3 +11,16 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.Prope
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.csproj.GenerateResource.Cache
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.exe
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\bin\Debug\H9BookShop.exe.config
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\bin\Debug\H9BookShop.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\bin\Debug\H9BookShop.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\MainWindow.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\App.g.cs
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop_MarkupCompile.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop_MarkupCompile.lref
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\MainWindow.baml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.g.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.Properties.Resources.resources
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.csproj.GenerateResource.Cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H9BookShop\obj\Debug\H9BookShop.pdb

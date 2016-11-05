@@ -7,3 +7,12 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Microsoft.Vis
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.csprojResolveAssemblyReference.cache
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.dll
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3Tests.dll
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3Tests.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Tehtava3.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.csprojResolveAssemblyReference.cache
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.dll
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\Tehtava3Tests\obj\Debug\Tehtava3Tests.pdb

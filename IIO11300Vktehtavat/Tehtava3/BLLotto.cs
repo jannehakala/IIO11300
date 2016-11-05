@@ -33,43 +33,60 @@ namespace JAMK.IT.IIO11300 {
         public string DrawGame(string gamename, int rownumber) {
             switch (gamename) {
                 case "Lotto":
-                    return "Row " + rownumber + ": " + String.Join(", ", DrawLottoArray(7, 39));
+                    return "Row " + rownumber + ": " + String.Join(", ", DrawLottoArray(7, 9));
                 case "Viking Lotto":
-                    return "Row " + rownumber + ": " + String.Join(", ", DrawLottoArray(6, 48));
+                    return "Row " + rownumber + ": " + String.Join(", ", DrawLottoArray(6, 9));
                 case "Eurojackpot":
-                    return "Row " + rownumber + ": " + String.Join(", ", DrawLottoArray(5, 50)) + " + " + String.Join(", ", DrawLottoArray(2, 8));
+                    return "Row " + rownumber + ": " + String.Join(", ", DrawLottoArray(5, 9)) + " + " + String.Join(", ", DrawLottoArray(2, 9));
                 default:
                     return "Select game first.";
             }
         }
-
+        
         public void WriteLottoNumbers(string numbers) {
-            string lotto = "Lottorivit" + GetWeekNumber() + ".txt";
-            StreamWriter file = new StreamWriter(lotto);
+            string lotto = "Lottorivit" + GetWeekNumber() + ".txt";    
 
-            StringReader drawnNumbers = new StringReader(numbers);
-            string line = string.Empty;
-            do {
-                line = drawnNumbers.ReadLine();
-                if (line != null) {
-                    string[] array = Regex.Split(line, @"\D+");
-                    file.WriteLine(String.Join(" ", array.Skip(2)));
+            try {
+
+                if (!(File.Exists(lotto))) {
+                    File.CreateText(lotto);
                 }
-            } while (line != null);
-            file.Close();
+                StreamWriter file = new StreamWriter(lotto);
+
+                StringReader drawnNumbers = new StringReader(numbers);
+                string line = string.Empty;
+                do {
+                    line = drawnNumbers.ReadLine();
+                    if (line != null) {
+                        string[] array = Regex.Split(line, @"\D+");
+                        file.WriteLine(String.Join(" ", array.Skip(2)));
+                    }
+                } while (line != null);
+                file.Close();
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+           
         }
         public int[] ReadLottoNumbers(string correctrow) {
+
             string lotto = "Lottorivit" + GetWeekNumber() + ".txt";
-            StreamReader sr = new StreamReader(lotto);
-            string line = "";
-            int counter = 0;
-            int lineCount = File.ReadLines(lotto).Count();
-            int[] correctNumbers = new int[lineCount];
-            string[] array1 = correctrow.Split(' ');
-            StreamReader file = new StreamReader(lotto);
-            for (int i = 0; i < lineCount; i++) {
-                line = file.ReadLine();
-                string[] array2 = line.Split(' ');
+            try {
+                if (!(File.Exists(lotto))) {
+                    File.CreateText(lotto);
+                }
+
+                StreamReader sr = new StreamReader(lotto);
+                string line = "";
+                int counter = 0;
+                int lineCount = File.ReadLines(lotto).Count();
+                int[] correctNumbers = new int[lineCount];
+                string[] array1 = correctrow.Split(' ');
+                StreamReader file = new StreamReader(lotto);
+                for (int i = 0; i < lineCount; i++) {
+                    line = file.ReadLine();
+                    string[] array2 = line.Split(' ');
                     counter = 0;
                     foreach (string one in array1) {
                         foreach (string two in array2) {
@@ -79,8 +96,14 @@ namespace JAMK.IT.IIO11300 {
                             }
                         }
                     }
-                }                   
-            return correctNumbers;
+                }
+
+                return correctNumbers;
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+           
         }
         public string GetWeekNumber() {
             var culture = CultureInfo.GetCultureInfo("cs-CZ");

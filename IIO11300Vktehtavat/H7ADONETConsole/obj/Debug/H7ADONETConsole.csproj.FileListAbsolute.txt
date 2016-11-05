@@ -3,3 +3,8 @@ D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\bin\Debug\H7ADONETCon
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\bin\Debug\H7ADONETConsole.pdb
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\obj\Debug\H7ADONETConsole.exe
 D:\H3298\REPOS\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\obj\Debug\H7ADONETConsole.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\bin\Debug\H7ADONETConsole.exe.config
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\bin\Debug\H7ADONETConsole.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\bin\Debug\H7ADONETConsole.pdb
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\obj\Debug\H7ADONETConsole.exe
+C:\Users\Janne\Desktop\Jamk\Windows -ohjelmointi\IIO11300\IIO11300Vktehtavat\H7ADONETConsole\obj\Debug\H7ADONETConsole.pdb
